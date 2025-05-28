@@ -29,6 +29,9 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      - name: Intall npm
+        run: npm install
+
       - name: test lint
         run: npm run lint
 
